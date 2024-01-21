@@ -1,11 +1,3 @@
-if game.PlaceId == 6918802270 then
-    World1 = true;
-elseif game.PlaceId == 14979402479 then
-    World2 = true;
-else
-    game:Shutdown()
-end; 
-
 local SlayerzLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/x2-Neptune/SlayerzUI/main/BetaLibrary.script"))()
 local Name = "Alchemy Hub" -- Name Hub
 local Description = "Version: 1.0 [Free] | User: ".game.Players.LocalPlayer.Name -- Description in script

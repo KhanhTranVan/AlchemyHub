@@ -1,6 +1,6 @@
 local SlayerzLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/x2-Neptune/SlayerzUI/main/BetaLibrary.script"))()
-local Name = "Alchemy Hub" -- Name Hub
-local Description = "Version: 1.0 [Free] | User: ".game.Players.LocalPlayer.Name -- Description in script
+local Name = "Alchemy Hub"
+local Description = "Version: 1.0 [Free]"
 local Image = "rbxassetid://15110884615" -- Image Id
 local Color = Color3.fromRGB(255, 0, 0) -- Color in UI
 

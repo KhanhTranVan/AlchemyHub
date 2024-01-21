@@ -1,9 +1,6 @@
 local SlayerzLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/x2-Neptune/SlayerzUI/main/BetaLibrary.script"))()
 
 function checklevel()
-    local levelText = game.Players.LocalPlayer.PlayerGui.HUD.MainFrame.Main.Holder.NumberStats.Level.Stat.Text
-    local level = tonumber(string.match(levelText, "%d+"))
-
     if level >= 1 and level <= 10 then
         Mon = "Thief"
         questlv = "Level 1"
@@ -300,8 +297,6 @@ local Window = SlayerzLibrary:Window(Name,Description,Image,Color)
 local page1 = Window:Tab("Main") 
 
 local Section = page1:Section("Main","Left")
-local levelText = game.Players.LocalPlayer.PlayerGui.HUD.MainFrame.Main.Holder.NumberStats.Level.Stat.Text
-local level = tonumber(string.match(levelText, "%d+"))
 if level == 1 or (level >= 2 and level <= 10) then
 end
 

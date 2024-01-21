@@ -1,7 +1,6 @@
-local id = game.PlaceId
-if id == 6918802270 then
+if game.PlaceId == 6918802270 then
     World1 = true;
-elseif id == 14979402479 then
+elseif game.PlaceId == 14979402479 then
     World2 = true;
 else
     game:Shutdown()

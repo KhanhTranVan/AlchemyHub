@@ -1,12 +1,3 @@
-local id = game.PlaceId
-if id == 6918802270 then
-    World1 = true;
-elseif id == 14979402479 then
-    World2 = true;
-else
-    game:Shutdown()
-end; 
-
 local SlayerzLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/x2-Neptune/SlayerzUI/main/BetaLibrary.script"))()
 
 function checklevel()

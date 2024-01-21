@@ -1,4 +1,17 @@
+local id = game.PlaceId
+if id == 6918802270 then
+    World1 = true;
+elseif id == 14979402479 then
+    World2 = true;
+else
+    game:Shutdown()
+end; 
+
 local SlayerzLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/x2-Neptune/SlayerzUI/main/BetaLibrary.script"))()
+local Name = "Alchemy Hub" -- Name Hub
+local Description = "Version: 1.0 [Free] | User: ".game.Players.LocalPlayer.Name -- Description in script
+local Image = "rbxassetid://15110884615" -- Image Id
+local Color = Color3.fromRGB(255, 0, 0) -- Color in UI
 
 function checklevel()
     if level >= 1 and level <= 10 then
@@ -286,12 +299,6 @@ function checklevel()
         CFrameQuest = CFrame.new(7297.27099609375, 19.702999114990234, 11858.0615234375)
     end
 end
-
-
-local Name = "Alchemy Hub" -- Name Hub
-local Description = "Version: 1.0 [Free] | User: ".game.Players.LocalPlayer.Name -- Description in script
-local Image = "rbxassetid://15110884615" -- Image Id
-local Color = Color3.fromRGB(255, 0, 0) -- Color in UI
 
 local Window = SlayerzLibrary:Window(Name,Description,Image,Color)
 local page1 = Window:Tab("Main") 
